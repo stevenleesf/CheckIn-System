@@ -66,7 +66,7 @@ const Listofplace = () => {
 
 
                         <Link
-                            to={"/createcheckin/" + currentTutorial.id}
+                            to={"/CheckIn-System/createcheckin/" + currentTutorial.id}
                             className="btn btn-outline-dark btn--medium"
                         >
                             Check In

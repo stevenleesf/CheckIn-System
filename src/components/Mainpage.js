@@ -27,7 +27,7 @@ const Mainpage = props => {
                 <h1>{currentTutorial.locationname}</h1>
                 <br></br>
                 <p>Welcome to Checkin Application, Develop for {currentTutorial.locationname}</p>
-                <Link to={`/createcheckin/${currentTutorial.id}`} className='btn-link'>
+                <Link to={`/CheckIn-System/createcheckin/${currentTutorial.id}`} className='btn-link'>
                     <Button variant="outline-secondary" >Check-In</Button>
                 </Link>
 
