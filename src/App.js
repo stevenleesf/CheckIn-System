@@ -13,10 +13,10 @@ function App() {
 
   return (
       
-      <BrowserRouter basename='/'>
+      <BrowserRouter basename='/1'>
         <Navbar />
         <Switch>
-        <Route  exact path='/CheckIn-System/:id'  component={Home}/>
+        <Route  path='/CheckIn-System/:id' exact component={Home}/>
         <Route  exact path='/CheckIn-System/createcheckin/:id'  component={Checkin}/>
         <Route  exact path='/CheckIn-System/Register/:id'  component={Register}/>
         <Route  exact path='/CheckIn-System/Listofplaces/:id'  component={listofplaces}/>

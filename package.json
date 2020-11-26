@@ -2,7 +2,7 @@
   "name": "checkin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://stevenleesf.github.io/CheckIn-System/",
+  "homepage": "http://stevenleesf.github.io/CheckIn-System/1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
