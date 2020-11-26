@@ -32,3 +32,5 @@ Make sure port 3001, 3000 is not uses
 5. Terminal insert npm start. 
 6. on the left panel, right click on node-server and open in integrated terminal
 7. In the new terminal, key in "npm start"
+
+Enjoy Coding 
