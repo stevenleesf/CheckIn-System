@@ -13,16 +13,16 @@ function App() {
 
   return (
       
-      <HashRouter basename="/1">
+      <HashRouter basename= "/home">
         <Nav className="justify-content-center"  as="ul" variant="tabs" >
           <Nav.Item as="li">
-            <Nav.Link href="/1">Home</Nav.Link>
+            <Nav.Link to="/1">Home</Nav.Link>
           </Nav.Item>
           <Nav.Item as="li">
-            <Nav.Link href="/Listofplaces/1">List of Places</Nav.Link>
+            <Nav.Link to="/Listofplaces/1">List of Places</Nav.Link>
           </Nav.Item>
           <Nav.Item as="li">
-            <Nav.Link href="/Register/1">Register</Nav.Link>
+            <Nav.Link to="/Register/1">Register</Nav.Link>
           </Nav.Item>
         </Nav>
         <Switch>
