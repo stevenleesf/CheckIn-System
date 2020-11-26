@@ -4,23 +4,18 @@ module.exports = app => {
 
 
 
-  // Create a new Customer
+  // Create a new Location
   app.post("/customers", customers.create);
 
-  // Create a new Customer
+  // Check in Customer
   app.post("/createcheckin/:id", check.createcheckin);
 
   // Retrieve all Customers
   app.get("/list", customers.findAll);
 
   // Retrieve a single Customer with customerId
-  app.get("/customers/:id", customers.findOne);
-
-  // Retrieve a single Customer with customerId
   app.get("/bylocation/:id", customers.findOneLoc);
 
-  // Retrieve a single Customer with customerId
-  app.get("/bylocationName/:locationname", customers.findOneLocName);
 
  
 };

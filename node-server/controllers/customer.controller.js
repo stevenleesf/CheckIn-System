@@ -13,7 +13,7 @@ exports.create = (req, res) => {
   const customer = new Customer({
     id: req.body.id,
     locationname: req.body.locationname,
-    
+
 
   });
 
@@ -40,21 +40,6 @@ exports.findAll = (req, res) => {
     else res.send(data);
   });
 };
-exports.findOne = (req, res) => {
-  Customer.findById(req.params.id, (err, data) => {
-    if (err) {
-      if (err.kind === "not_found") {
-        res.status(404).send({
-          message: `Not found Customer with id ${req.params.id}.`
-        });
-      } else {
-        res.status(500).send({
-          message: "Error retrieving Customer with id " + req.params.id
-        });
-      }
-    } else res.send(data);
-  });
-};
 
 
 
@@ -74,20 +59,6 @@ exports.findOneLoc = (req, res) => {
   });
 };
 
-exports.findOneLocName = (req, res) => {
-  Customer.findBylocName(req.params.locationname, (err, data) => {
-    if (err) {
-      if (err.kind === "not_found") {
-        res.status(404).send({
-          message: `Not found location with location name ${req.params.locationname}.`
-        });
-      } else {
-        res.status(500).send({
-          message: "Error retrieving location with location name " + req.params.locationname
-        });
-      }
-    } else res.send(data);
-  });
-};
+
 
 

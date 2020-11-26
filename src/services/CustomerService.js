@@ -5,16 +5,8 @@ const getAll = () => {
   return http.get("/list");
 };
 
-const get = id => {
-  return http.get(`/customers/${id}`);
-};
-
 const getOne = id => {
   return http.get(`/bylocation/${id}`);
-};
-
-const getOnebyName = locationname => {
-  return http.get(`/bylocationName/${locationname}`);
 };
 
 const create = data => {
@@ -26,14 +18,10 @@ const createcheckin =(id, data) => {
 };
 
 
-
-
-
 export default {
   getAll,
-  get,
   getOne,
   create,
   createcheckin,
-  getOnebyName,
+ 
 };
