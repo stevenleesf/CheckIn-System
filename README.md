@@ -27,9 +27,9 @@ Make sure port 3001, 3000 is not uses
 ## Instruction "React and node"
 1. Open up Vscode
 2. On the top left corner select File > Open folder
-3. Select checkin folder
+3. Select CheckIn-System-master folder
 4. On the top menu bar select view > terminal
-5. Terminal insert npm start. 
+5. Terminal insert npm install "this is to download the packages" and then npm start "to start". 
 6. on the left panel, right click on node-server and open in integrated terminal
 7. In the new terminal, key in "npm start"
 
