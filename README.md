@@ -32,5 +32,6 @@ Make sure port 3001, 3000 is not uses
 5. Terminal insert npm install "this is to download the packages" and then npm start "to start". 
 6. on the left panel, right click on node-server and open in integrated terminal
 7. In the new terminal, key in "npm start"
+8. Refresh the pages, to enable the data from the database to appear.
 
 Enjoy Coding 
